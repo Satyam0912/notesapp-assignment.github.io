@@ -1,0 +1,45 @@
+.App {
+  min-height: 110vh;
+  width: 100%;
+  text-align: center;
+  background-color: blueviolet;
+}
+
+
+.notes,
+.disp-search-notes {
+  padding: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.disp-search-notes {
+  display: none;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.addNoteBtn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px !important;
+  position: fixed;
+  top: 80vh;
+  left: 70%;
+}
+
+button {
+  background: transparent;
+  border: none;
+  color: blue;
+}
+
+input.note-card-title,
+textarea.note-textarea {
+  padding: 0;
+  border: none;
+  outline: none;
+}
